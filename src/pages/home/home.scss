@@ -1,5 +1,22 @@
 page-home {
-    .slide-zoom {
-        height: 50%;
-        }
+    // .slide-zoom {
+    //     height: 50%;
+    //     }
+
+    .ios, .md {
+ 
+        page-home {
+     
+            .scroll-content {
+                background-color: map-get($colors, light);
+            }
+     
+            ion-card-header {
+                font-weight: bold;
+            }
+     
+                  }
+    
+                }
 }
+
